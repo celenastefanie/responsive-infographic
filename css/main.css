@@ -156,7 +156,6 @@ p {
   position: absolute;
   width: 10%;
   top: 85%;
-  z-index: 100000000%;
   transform: rotate(30deg);
   left: -3%;
 }
@@ -165,7 +164,6 @@ p {
   position: absolute;
   width: 10%;
   top: 109%;
-  z-index: 100000000%;
   transform: rotate(190deg);
   right: -3%;
 }
