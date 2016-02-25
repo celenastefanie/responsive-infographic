@@ -102,7 +102,7 @@ p {
 .bone-2 {
   position: absolute;
   width: 3.2%;
-  top: 45%;
+  top: 38%;
   right: 20%;
   transform: rotate(45deg);
   transform-origin: center;
@@ -147,15 +147,42 @@ p {
   text-align: center;
 }
 
+.content {
+  position: relative;
+
+}
+
+.leaf-1 {
+  position: absolute;
+  width: 10%;
+  top: 85%;
+  z-index: 100000000%;
+  transform: rotate(30deg);
+  left: -3%;
+}
+
+.leaf-2 {
+  position: absolute;
+  width: 10%;
+  top: 109%;
+  z-index: 100000000%;
+  transform: rotate(190deg);
+  right: -3%;
+}
+
 @media only screen and (min-width: 26em) {
 
   .bone-2 {
     position: absolute;
     width: 2.6%;
-    top: 40%;
+    top: 35%;
     right: 20%;
     transform: rotate(45deg);
     transform-origin: center;
+  }
+
+  .leaf-1, .leaf-2 {
+    display: none;
   }
 }
 
@@ -190,17 +217,17 @@ p {
 
   .foot-4 {
     width: 40%;
-    padding-top: 60%;
+    padding-top: 55%;
   }
 
   .foot-5 {
     width: 30%;
-    padding-top: 75%;
+    padding-top: 69%;
   }
 
   .foot-6 {
     width: 20%;
-    padding-top: 86%;
+    padding-top: 79%;
   }
 
   .bone-2, .bone-1 {
@@ -222,7 +249,7 @@ p {
 
   .heart {
     float: right;
-    padding-top: 5%;
+    padding-top: 4%;
   }
 
   .bones {
@@ -242,7 +269,21 @@ p {
   }
 
   .needs-box {
-    padding-top: 5%;
+    padding-top: 9%;
+  }
+
+  .box-3 {
+    padding: 0 5%;
+  }
+
+  .leaf-1, .leaf-2 {
+    display: block;
   }
 
 }
+
+@media only screen and (min-width: 65em) {
+
+  .leaf-2 {
+    top: 115%;
+  }
