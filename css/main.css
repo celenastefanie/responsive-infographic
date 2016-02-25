@@ -12,6 +12,10 @@ text-size-adjust: 100%;
 	box-sizing: inherit;
 }
 
+html {
+	box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
