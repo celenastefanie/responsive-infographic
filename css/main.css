@@ -1,0 +1,249 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+-moz-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+text-size-adjust: 100%;
+
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.box-1 {
+  background-color: #c3dbd0;
+}
+
+.box-2 {
+  background-color: #dbe9a8;
+}
+
+.box-3 {
+  background-color: #acac68;
+	position: relative;
+}
+
+.box-4 {
+  background-color: #8f7665;
+}
+
+.header {
+  width: 100%;
+	display: block;
+}
+
+.box-2:hover .small-heart {
+	animation: pulse .5s linear infinite alternate;
+	transform-origin: center;
+}
+
+@keyframes pulse {
+
+  0% {
+    transform: scale(.9);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.box-2 {
+	overflow: auto;
+}
+
+.heart-and-pulse {
+	width: 90%;
+	float: right;
+}
+
+.choles-p, .box-2-h2 {
+	color: #8f7665;
+}
+
+.calcium-p, .box-3-h2 {
+	color: #fff;
+}
+
+.box-4-h2, .footprint-p {
+	color: #dbe9a8;
+}
+
+.box-2-h2, .box-3-h2, .box-4-h2 {
+	font-family: 'Montez', cursive;
+	text-align: center;
+	font-weight: normal;
+}
+
+p {
+	font-family: 'Pompiere', cursive;
+}
+
+.needs, .needs-p, .equal-sign {
+	fill:#FFFFFF;
+}
+
+.needs-box {
+	width: 90%;
+	padding-left: 5%;
+}
+
+.bone-1 {
+	position: absolute;
+	width: 3%;
+	top: 35%;
+	left: 20px;
+	transform: rotate(-20deg);
+	transform-origin: center;
+}
+
+.bone-2 {
+	position: absolute;
+	width: 3.2%;
+	top: 45%;
+	right: 20%;
+	transform: rotate(45deg);
+	transform-origin: center;
+}
+
+.foot-1 {
+	width: 70%;
+}
+
+.foot-2 {
+	width: 60%;
+	padding-top: 12%;
+}
+
+.foot-3 {
+	width: 50%;
+	padding-top: 24%;
+}
+
+.foot-4 {
+	width: 40%;
+}
+
+.foot-5 {
+	width: 30%;
+	padding-top: 12%;
+}
+
+.foot-6 {
+	width: 20%;
+	padding-top: 24%;
+}
+
+.foot-cap {
+	text-align: center;
+	color: #dbe9a8;
+	margin-right: 0;
+}
+
+.feet {
+	width: 30%;
+	text-align: center;
+}
+
+@media only screen and (min-width: 26em) {
+
+	.bone-2 {
+		position: absolute;
+		width: 2.6%;
+		top: 40%;
+		right: 20%;
+		transform: rotate(45deg);
+		transform-origin: center;
+	}
+}
+
+@media only screen and (min-width: 30em) {
+	.bone-2, .bone-1 {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 38em) {
+	.feet {
+		width: 16%;
+		text-align: center;
+	}
+
+	.foot-1 {
+		width: 70%;
+	}
+
+	.foot-2 {
+		width: 60%;
+		padding-top: 15%;
+	}
+
+	.foot-3 {
+		width: 50%;
+		padding-top: 30%;
+	}
+
+	.foot-4 {
+		width: 40%;
+		padding-top: 60%;
+	}
+
+	.foot-5 {
+		width: 30%;
+		padding-top: 75%;
+	}
+
+	.foot-6 {
+		width: 20%;
+		padding-top: 86%;
+	}
+
+	.bone-2, .bone-1 {
+		display: none;
+	}
+
+	.needs-box {
+		width: 90%;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	.heart-and-pulse {
+		width: 90%;
+		float: right;
+	}
+
+	.heart {
+		float: right;
+		padding-top: 5%;
+	}
+
+	.bones {
+		float: left;
+	}
+
+	.feet-carbon {
+		float: right;
+	}
+
+	.feet {
+		padding-top: 5%;
+	}
+
+	.box-4-h2 {
+		padding: 15% 5% 2% 5%;
+	}
+
+	.needs-box {
+		padding-top: 5%;
+	}
