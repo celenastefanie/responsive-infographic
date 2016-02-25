@@ -160,12 +160,15 @@ p {
 }
 
 @media only screen and (min-width: 30em) {
+
   .bone-2, .bone-1 {
     display: none;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
+
   .feet {
     width: 16%;
     text-align: center;
@@ -207,9 +210,11 @@ p {
   .needs-box {
     width: 90%;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
+
   .heart-and-pulse {
     width: 90%;
     float: right;
@@ -239,4 +244,5 @@ p {
   .needs-box {
     padding-top: 5%;
   }
+	
 }
